@@ -1,0 +1,3 @@
+replicate	solute	sequencing_data_subdir	cytometry_data_subdir	collection_date	construct
+d	BA1	CT13874/	Omi32_ba1_d_gate_events/	4/18/25	Omi32
+i	BA1	CT14624/	Omi32_ba1_i_gate_events/	9/4/25	Omi32
