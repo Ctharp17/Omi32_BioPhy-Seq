@@ -1,0 +1,22 @@
+Rendering the following markdown text:
+
+# Omi-32 library pilot - expression and binding against BA.4 RBD
+Analysis by Cole Tharp (2024)
+
+See [https://github.com/Ctharp17/amplab_code_1](https://github.com/Ctharp17/amplab_code_1) for full code.
+
+[TOC]
+
+## Barcode to codon-variant lookup table
+#### Analysis notebooks
+  - [Analysis of PacBio CCSs](notebooks/analyze_pacbio_ccs.html)
+  - [Building barcoded variant consensus sequences](notebooks/build_pacbio_consensus.html)
+  - [Building of codon-variant table](notebooks/build_codon_variants.html)
+#### Data files
+  - [parental codon sequence](https://github.com/Ctharp17/amplab_code_1/tree/results_from_dms/results/gene_sequence/codon_Omi-32.fasta)
+  - [parental protein sequence](https://github.com/Ctharp17/amplab_code_1/tree/results_from_dms/results/gene_sequence/protein_Omi-32.fasta)
+  - [barcode to codon-variant lookup table](https://github.com/Ctharp17/amplab_code_1/tree/results_from_dms/results/variants/codon_variants_Omi-32.csv)
+
+
+Collapsing the following nested lists:
+[]

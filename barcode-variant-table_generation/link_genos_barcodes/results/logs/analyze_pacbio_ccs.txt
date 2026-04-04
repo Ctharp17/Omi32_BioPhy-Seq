@@ -1,0 +1,4 @@
+Input Notebook:  dms-vep-pipeline-3/notebooks/analyze_pacbio_ccs.ipynb
+Output Notebook: results/notebooks/analyze_pacbio_ccs.ipynb
+Executing:   0%|          | 0/18 [00:00<?, ?cell/s]Executing notebook with kernel: conda-env-dms-vep-pipeline-3-py
+Executing:   6%|▌         | 1/18 [00:02<00:46,  2.74s/cell]Executing:  11%|█         | 2/18 [00:06<00:55,  3.50s/cell]Executing:  39%|███▉      | 7/18 [00:06<00:07,  1.44cell/s]Executing:  61%|██████    | 11/18 [00:07<00:02,  2.54cell/s]Executing:  72%|███████▏  | 13/18 [00:07<00:01,  2.85cell/s]Executing:  83%|████████▎ | 15/18 [00:10<00:01,  1.69cell/s]Executing:  94%|█████████▍| 17/18 [02:02<00:15, 15.97s/cell]Executing: 100%|██████████| 18/18 [02:05<00:00,  6.96s/cell]

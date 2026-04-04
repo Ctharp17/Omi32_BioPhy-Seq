@@ -1,0 +1,3 @@
+Reading amplicon from snakemake.input.gb='data/Omi-32_Library_PacBio_amplicon.gb'
+Found gene of length 2352
+Writing to results/gene_sequence/codon_Omi-32.fasta

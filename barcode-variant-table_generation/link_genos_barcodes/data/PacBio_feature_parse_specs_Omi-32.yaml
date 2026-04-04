@@ -1,0 +1,23 @@
+PacBio_amplicon:
+  query_clip5: 20
+  query_clip3: 20
+  termini5:
+    filter:
+      clip5: 20
+      mutation_nt_count: null
+      mutation_op_count: 5
+  gene:
+    filter:
+      mutation_nt_count: null
+      mutation_op_count: null
+    return: [mutations, accuracy]
+  barcode:
+    filter:
+      mutation_nt_count: null
+      mutation_op_count: null
+    return: [sequence, accuracy]
+  termini3:
+    filter:
+      clip3: 20
+      mutation_nt_count: null
+      mutation_op_count: 5
