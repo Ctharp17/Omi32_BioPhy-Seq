@@ -1,0 +1,27 @@
+{
+  "scope": "pos4",
+  "phenotype": "raw",
+  "order": 1,
+  "encoding": "stat",
+  "n_params": 13,
+  "n_samples": 3790,
+  "r2": 0.6907483892297237,
+  "feature_names": [
+    "1",
+    "1",
+    "2",
+    "3",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+  ],
+  "dropped_features": [
+    3
+  ]
+}

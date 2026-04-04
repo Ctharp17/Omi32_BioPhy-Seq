@@ -1,0 +1,25 @@
+{
+  "scope": "full",
+  "phenotype": "latent_hill",
+  "order": 1,
+  "encoding": "stat",
+  "n_params": 14,
+  "n_samples": 6740,
+  "r2": 0.7753452373823694,
+  "feature_names": [
+    "1",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+  ]
+}
