@@ -1,5 +1,0 @@
-scope,phenotype,order,predict_phenotypes
-full,raw,3,TRUE
-full,latent_hill,2,FALSE
-pos4,raw,3,FALSE
-pos4,latent_hill,2,FALSE

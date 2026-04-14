@@ -1,3 +1,0 @@
-scope,phenotype,order,predict_phenotypes
-full,raw,2,TRUE
-full,latent_logistic,2,FALSE
