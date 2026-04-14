@@ -1,0 +1,21 @@
+name: BioPhy-Seq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - biopython>=1.76
+  - jupyterlab>=3
+  - mamba
+  - matplotlib=3.5.1
+  - pandas=1.4.1
+  - python=3.8
+  - regex
+  - scikit-learn
+  - scipy=1.5.2
+  - seaborn=0.11.2
+  - snakemake=7.1.1
+  - statsmodels
+  - tabulate=0.8.10
+  - levenshtein
+  - pybktree

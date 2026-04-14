@@ -1,0 +1,3 @@
+replicate	solute	sequencing_data_subdir	cytometry_data_subdir	collection_date	construct
+g	PSR	CT14624/	Omi32_PSR_g_gate_events/	8/13/25	Omi32
+h	PSR	CT14624/	Omi32_PSR_h_gate_events/	8/22/25	Omi32

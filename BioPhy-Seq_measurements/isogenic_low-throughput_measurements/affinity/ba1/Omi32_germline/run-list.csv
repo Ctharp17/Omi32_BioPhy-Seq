@@ -1,0 +1,5 @@
+directory,row,shortname,antigen,replicate
+flow_data/omi32-germline_ba1_r1,E,Omi32,BA1,1
+flow_data/omi32-germline_ba1_r2,E,Omi32,BA1,2
+flow_data/omi32-germline_ba1_r1,A,Germline,BA1,1
+flow_data/omi32-germline_ba1_r2,A,Germline,BA1,2

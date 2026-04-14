@@ -1,0 +1,5 @@
+row,directory,shortname,antigen,replicate
+C,flow_data,5173,BA1,1
+D,flow_data,5173,BA1,2
+E,flow_data,6432,BA1,1
+F,flow_data,6432,BA1,2
