@@ -1,0 +1,6 @@
+color #f3e5f3 :31.M
+color #8b008b :51.M
+color #bf73bf :56.M
+color #faf4fa :1.N
+color #fefdfe :4.N
+color #ffffff :94.N

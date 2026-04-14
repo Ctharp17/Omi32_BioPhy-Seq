@@ -1,0 +1,9 @@
+directory,row,well,shortname
+data/HEK_r1,A,8,LP_CH65
+data/HEK_r1,B,8,LP_UCA860
+data/HEK_r2,A,4,LP_CH65
+data/HEK_r2,A,9,LP_UCA860
+data/Ramos_r1,C,8,Ramos_CH65
+data/Ramos_r1,D,8,Ramos_UCA860
+data/Ramos_r2,D,4,Ramos_CH65
+data/Ramos_r2,D,7,Ramos_UCA860

@@ -1,0 +1,14 @@
+Dataset: ba1_raw_3order_full_biochem
+Top pair: M51, M56
+Distance (Å): 6.36
+Σ |coef|: 2.274
+
+Contributing significant terms:
+--------------------------------------------------
+3,4                             coef = -0.7226
+3,4,12                          coef = +0.4806
+2,3,4                           coef = -0.3859
+3,4,5                           coef = +0.3016
+3,4,11                          coef = -0.1299
+3,4,9                           coef = +0.127
+3,4,7                           coef = +0.126

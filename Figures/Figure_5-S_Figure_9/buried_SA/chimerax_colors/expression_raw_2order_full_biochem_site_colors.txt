@@ -1,0 +1,11 @@
+color #636363 :31.M
+color #000000 :51.M
+color #0d0d0d :56.M
+color #8b8b8b :59.M
+color #e1e1e1 :1.N
+color #d8d8d8 :3.N
+color #f6f6f6 :4.N
+color #e9e9e9 :29.N
+color #d0d0d0 :33.N
+color #e0e0e0 :94.N
+color #ffffff :107.N

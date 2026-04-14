@@ -1,0 +1,10 @@
+color #fcebee :31.M
+color #ef90a3 :51.M
+color #dc143c :56.M
+color #ec7f95 :59.M
+color #ef92a5 :1.N
+color #ffffff :3.N
+color #fffcfd :4.N
+color #fdf5f7 :29.N
+color #ef96a8 :33.N
+color #fcebee :94.N
