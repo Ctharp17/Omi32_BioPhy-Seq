@@ -1,0 +1,375 @@
+/* Main stylesheet */
+
+/*#region*/ /* NON GRAPH OVERALL LAYOUT */
+
+#yoda_everything {
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  margin: 0px auto;
+}
+
+#yoda_title {
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 250px;
+  top: 10px;
+  margin: 0px;
+  z-index: 2;
+  cursor: default;
+}
+
+#yoda_about {
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  right: 250px;
+  top: 10px;
+  margin: 0px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+}
+
+#loading_message {
+  font-size: 36px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  right: 350px;
+  top: 300px;
+  z-index: 2;
+  animation: fadeIn 1s infinite alternate;
+}
+
+#yoda_about_div {
+  font-size: 1.2em;
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  width: 1028px;
+  z-index: 2;
+  text-align: left;
+  background-color: #FCFCFC;
+  border: 2px solid #222;
+  border-radius: 0px;
+  padding: 35px;
+  display: none;
+}
+
+#yoda_about_div h2 {
+  text-align: center;
+}
+
+
+
+#about_x_out {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  font-size:20px;
+  background-color: #FCFCFC;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about_x_out:hover {
+  opacity: 0.6;
+}
+
+.antigen_button {
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  %  width: 140px;
+  padding-left:5px;
+  padding-right:5px;
+  %height: 30px;
+  display: inline-block;
+  %position: absolute;
+  %top: 10px;
+  text-anchor: middle;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.antigen_button:hover {
+  opacity: 0.7;
+}
+
+.antigen_active {
+  outline: 2px solid black;
+}
+
+#ace2_fluo_buttons {
+    top: 10px;
+    left: 400px;
+    position: absolute;
+}
+
+
+#antibody_buttons {
+    top:45px;
+    left:400px;
+    position: absolute;
+}
+
+
+
+
+#yoda_about:hover {
+  opacity: 0.5;
+}
+
+#yoda_left_bar {
+  position: absolute;
+  left: 80px;
+  top: 80px;
+  width: 300px;
+  height: 650px;
+}
+
+#yoda_violin_canvas {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 150px;
+  height: 500px;
+  background-color: aqua;
+}
+
+#yoda_ngl_viewer {
+  position: absolute;
+  left: 60px;
+  top: 675px;
+  width: 200px;
+  height: 200px;
+}
+
+#yoda_canvas {
+  position: absolute;
+  left: 300px;
+  top: 90px;
+  width: 800px;
+  height: 580px;
+}
+
+#yoda_svg {
+  position: absolute;
+  left: 300px;
+  top: 90px;
+  width: 900px;
+  height: 650px;
+}
+
+/*#endregion*/
+
+/*#region*/ /* LEFT BAR */
+
+#total_var_count {
+  padding:10px;
+  font-size: 20px;
+}
+
+.allele_div {
+  width: 300px;
+  height: 33px;
+  margin: 0px;
+  position: relative;
+  font-size: 19px;
+  text-align: center;
+  cursor: default;
+}
+
+.allele_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float:left;
+}
+
+.allele_color_button {
+  width: 21px;
+  height: 21px;
+  margin-top: 3px;
+  %margin-left:15px;
+  margin-right:8px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.allele_delta_button {
+  width: 21px;
+  height: 21px;
+  margin-top: 3px;
+  margin-left:15px;
+  margin-right:8px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+
+.allele_color_button:hover {
+  opacity:0.5;
+}
+
+.allele {
+  width: 25px;
+  height: inherit;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.allele:hover {
+  opacity: 0.5;
+}
+
+.allele_pos {
+  width: 40px;
+  height: inherit;
+}
+
+.allele_number {
+  width: 30px;
+  height: inherit;
+}
+
+.allele_freq {
+  width: 50px;
+  height: inherit;
+}
+
+.active_allele {
+  background-color: #eb8989;
+}
+
+.locked_allele {
+  border: 2px solid black;
+}
+
+.colored_allele {
+  background-color: #CCC;
+}
+
+.geno_label {
+  font: 20px sans-serif;
+  fill: black;
+  text-anchor: middle;
+}
+
+.kd_label {
+  font: 16px sans-serif;
+  text-anchor: middle;
+}
+
+#kd_axis {
+  font-size: 16px;
+}
+
+.kd_curve_axis {
+  font-size: 16px;
+}
+
+.x_axis_label {
+  font: 20px sans-serif;
+  fill: black;
+  text-anchor: middle;
+}
+
+.y_axis_label {
+  font: 20px sans-serif;
+  fill: black;
+  text-anchor: end;
+}
+
+#kd_curve_title {
+  font: 13px sans-serif;
+  fill: #333;
+}
+
+.germ_som_text {
+  font: 20px sans-serif;
+  fill: #555555;
+  text-anchor: middle;
+}
+
+/*#endregion*/
+
+/*Slider button*/
+
+#switch_holder {
+  position: absolute;
+  display: none;
+  left: 1030px;
+  top: 60px;
+  width: 500px;
+}
+
+#switch_label {
+  display: inline;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
+}
+
+.bar {
+    fill: steelblue;
+}
